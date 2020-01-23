@@ -31,11 +31,16 @@
 # }
 
 def naming_system
+<<<<<<< HEAD
   ecosystem = {
+=======
+  PORTION_1 = {
+>>>>>>> 0e8702a04bb16e765af95282a886b45825c204e5
     label: "Kingdom",
     sub_category: {
      label: "Phylum",
      sub_category: {
+<<<<<<< HEAD
        label: "Class",
        sub_category: {
          label: "Order",
@@ -58,6 +63,14 @@ def naming_system
       
     }
   }
+=======
+       label: "Class"
+     }
+   }
+ }
+ PORTION_2 = {
+   label: "Order"
+>>>>>>> 0e8702a04bb16e765af95282a886b45825c204e5
   # Remember:
   #  Kingdom
   #  Phylum
